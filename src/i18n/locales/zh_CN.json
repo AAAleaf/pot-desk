@@ -7,7 +7,8 @@
             "write_clipboard": "写入剪贴板",
             "plugin": "插件",
             "coming": "敬请期待…",
-            "clear": "清空"
+            "clear": "清空",
+            "delete": "删除"
         },
         "languages": {
             "auto": "自动检测",
@@ -175,6 +176,27 @@
             "history": {
                 "label": "历史记录",
                 "title": "历史记录"
+            },
+            "vocabulary": {
+                "label": "生词本",
+                "title": "生词本",
+                "search_placeholder": "搜索单词或释义",
+                "total_count": "共 {{num}} 个词",
+                "export_csv": "导出 CSV",
+                "word": "单词",
+                "translation": "释义",
+                "note": "笔记",
+                "repeat_count": "次数",
+                "updated_at": "更新时间",
+                "actions": "操作",
+                "detail": "详情",
+                "empty": "生词本还是空的，在翻译窗口点一下生词本图标即可收录",
+                "delete_success": "已删除",
+                "save_success": "已保存",
+                "export_success": "已导出到 {{path}}",
+                "nothing_to_export": "没有可导出的内容",
+                "clear_confirm_title": "清空生词本",
+                "clear_confirm": "将删除全部生词记录，且无法恢复，确定继续？"
             },
             "backup": {
                 "label": "备份设置",
@@ -447,6 +469,12 @@
                     "title": "欧路词典",
                     "name": "生词本名称",
                     "token": "Token"
+                },
+                "potlocal": {
+                    "title": "本地生词本",
+                    "total_words": "已收录",
+                    "words_list": "词表管理",
+                    "open": "打开生词本"
                 }
             }
         },

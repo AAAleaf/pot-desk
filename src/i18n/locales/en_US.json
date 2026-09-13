@@ -7,7 +7,8 @@
             "write_clipboard": "Write to Clipboard",
             "plugin": "Plugin",
             "coming": "Coming soon…",
-            "clear": "Clear"
+            "clear": "Clear",
+            "delete": "Delete"
         },
         "languages": {
             "auto": "Auto Detect",
@@ -175,6 +176,27 @@
             "history": {
                 "label": "History",
                 "title": "History"
+            },
+            "vocabulary": {
+                "label": "Vocabulary",
+                "title": "Vocabulary",
+                "search_placeholder": "Search word or definition",
+                "total_count": "{{num}} words",
+                "export_csv": "Export CSV",
+                "word": "Word",
+                "translation": "Definition",
+                "note": "Note",
+                "repeat_count": "Times",
+                "updated_at": "Updated",
+                "actions": "Actions",
+                "detail": "Detail",
+                "empty": "Vocabulary is empty. Click the vocabulary icon in the translate window to collect words.",
+                "delete_success": "Deleted",
+                "save_success": "Saved",
+                "export_success": "Exported to {{path}}",
+                "nothing_to_export": "Nothing to export",
+                "clear_confirm_title": "Clear Vocabulary",
+                "clear_confirm": "All collected words will be deleted permanently. Continue?"
             },
             "backup": {
                 "label": "Backup",
@@ -447,6 +469,12 @@
                     "title": "Eudic",
                     "name": "Collection Name",
                     "token": "Token"
+                },
+                "potlocal": {
+                    "title": "Local Collection",
+                    "total_words": "Collected",
+                    "words_list": "Word List",
+                    "open": "Open Collection"
                 }
             }
         },
